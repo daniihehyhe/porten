@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header a{
+    font-family: 'Alfa Slab One', cursive;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+text-decoration: none;
+color: #969696;
+margin-left: 10px;
+vertical-align: bottom;
+}
+
+header{
+background-color: black;
+height: 10vh;
+display: flex;
+vertical-align: top;
+width: 100%;
+align-items: center;
+justify-content:space-evenly;
+}
+.container{
+    display: flex;
+    align-content: space-between;;
+    
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 5vh;
+    justify-content: right;
+    margin-top: 20px;
+}
+nav a{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;;
+}
+.porten{
+    margin-top: 10px;
+    width: 104px;
+    height: 45px;
+    left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 29.17%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imges/Rectangle\ 3.jpg);
+flex-direction: column;
+justify-content: space-around;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items:center
+}
+.ramka{
+    width: 320px;
+    height: 320px;
+    border: 4px white solid;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+    color: white;
+   align-items: center;
+}
+.main>p{
+    width: 700px;
+    color: white;
+   text-align: center;
+}
+.main2{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.ramka img{
+    width: 185px;
+height: 86px;
+border-bottom: 2px solid white;
+}
+.clock{
+    width: 60%;
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    color:antiquewhite;
+flex-direction: column;
+align-items:center;
+justify-content: space-around;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+.clock img{
+    width:150px;
+    height: 151px;
+}
+.fon{
+    padding: 20px 20px 20px 20px;
+    width: 200px;
+    height: 266px;
+    background-color: #191B1C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.border2{
+    width: 120px;
+height: 0px;
+    border: 1px solid #FFFFFF;
+}
+.watch{
+    display: flex;
+    width: 861px;
+    height: 273px;
+    justify-content: space-around;
+
+}
+
+
+.text{
+    width: 160px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_text{
+display: flex;   
+width: 861px; 
+height: 30px;  
+justify-content: space-around;
+margin-bottom: 80px;
+}
+
+.right_pic{
+    background-image: url(./imges/pic11.jpg);
+    width: 40%;
+    height: 80vh;
+    display: flex;
+justify-content: flex-end;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+.right_pic h1{
+    font-size: xx-large;
+}
+.bottom{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+}
+.bottom>div,h2{
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 15px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+.catalog{
+    border: white 3px solid;
+padding: 7px 10px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.box{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.jacket{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./imges/jacket.jpg);
+    width: 35%;
+    height: 70vh;
+    width: 50%;
+    flex-direction: column;
+}
+    .jacket2{
+        width: 50%;
+        height: 70vh;
+        background-color:black;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .jacket2 p{
+        width: 450px;
+        margin: 75px 0;
+    }
+    .box_text{
+        height: 70vh;
+        flex-direction: column;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 30px 0;
+    }
+    .box2{
+        height: 180vh;
+        width: 100%;
+        background-color:black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+padding-top: 100px;
+    }
+    .box3{
+        height: 50vh;
+        width: 100%;
+        background-color:  #0F0F0F;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center; 
+        
+    }
+
+    .brand {
+        display: flex;
+        width: 100%;
+        height: 40%;
+        justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+.box3 h1{
+    color: white;
+    margin-top: 20px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+}
+.box3 .border2{
+    margin: 30px 0;
+}
+footer{
+    height: 35h;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    background-image: url(./imges/footer.jpg);
+background-size: cover;
+background-position: center;
+}
+footer div{
+    display: flex;
+    height: 40vh;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+padding: 10px 20px;
+gap: 10px;
+    justify-content: flex-start;
+    color:white;
+}
+.catagori {
+    width: 300px;
+    margin-top: 10px;
+display: inline-block;
+align-items: center;
+}
+.catagori button{
+    padding: 7px 7px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.log {
+    color: white;
+   background-color: black;
+   margin-left: 0px;
+}
+::placeholder{
+     color: white;
+     background-color:#323333;
+     border: 2px solid 323333;
+ outline: none;
+ border: none;
+margin-right: 0px;
+}
+button{
+    transition: .5;
+}
+button:hover{
+    animation-duration: 1s;
+    transform:translateZ(1s);
+    background-color:rgb(107, 167, 120);
+    text-decoration: double 5px goldenrod;
+    color:#0F0F0F;
+}
+.sylka input{
+    border: none;
+    padding: 5px 5px;
+    background-color:#323333;
+}
+
+.burger{
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+@media(max-width: 576px){
+    .burger{
+        display: block;
+    }
+    .container header nav{
+        display: none;
+        align-items:center;
+    }
+    header{
+        justify-content: space-between;
+    padding: 0 30px;
+    }
+    .main .tex{
+        width: 330px;
+    }
+    .main2{
+        flex-direction: column;
+        height: 140vh;
+        width: 100%;
+    }
+    .clock{
+        width: 100%;
+    }
+    .watch{
+        overflow: scroll;
+        
+    }
+    .right_pic{
+        width: 100%;
+        order: -1;
+    }
+    .jacket2{
+        width: 100%;
+    }
+    .jacket2 p {
+        width: 300px;
+        margin: auto 0;
+    }
+    .box3{
+        height: 80vh;
+        flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .brand{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer{
+        flex-direction: column;
+    }
+.box{
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+}
+.jacket{
+    width: 100%;
+}
+.watch{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+.fon{
+    margin: 0 110px;
+}
+.box3{
+    height: 65vh;
+    display: flex;
+    justify-content: flex-start;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 93vh;
+    justify-content: flex-start;
+}
+.about{
+    width: 100%;
+    height: 20vh;
+}
+.catagori{
+    width: 100%;
+    height: 20vh;
+}
+.sylka{
+    width: 100%;
+    height: 15vh;
+}
+
+
+
+
+
+
+
+
+}
+
